@@ -1,13 +1,36 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>testing-feeling</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/src/style.css" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>testing-feeling</title>
+</head>
+
+<body>
+
+  <button class="calibration__button">START GYRO</button>
+  <p class="js-loaded"></p>
+  <div>
+    <p class="values"></p>
+  </div>
+
+
+  <section class="dreams">
+    <div class="parallax-container">
+      <img class="flower" src="src/assets/flower.png" alt="Flower">
+
+      <div class="dress-wrapper">
+        <img class="dreams__dress" src="/src/assets/dress.png" alt="Dior">
+        <div class="shine-layer"></div>
+      </div>
+
+      <div class="shadow-layer"></div>
+    </div>
+  </section>
+</body>
+<script src="/src/script.js"></script>
+
 </html>
